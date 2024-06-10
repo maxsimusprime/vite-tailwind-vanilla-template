@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add font from local files */
+@layer base {
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/Roboto.woff2) format('woff2');
+  }
+}
+
+:root {
+  --color-primary-success: #479b20;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (width >= 640px) {
+  .container {
+    max-width: 620px;
+  }
+}
+
+@media (width >= 768px) {
+  .container {
+    max-width: 740px;
+  }
+}
+
+@media (width >= 1024px) {
+  .container {
+    max-width: 1200px;
+  }
+}
