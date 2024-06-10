@@ -4,8 +4,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        // Add custom font. Using: font-poppins
+        // Add custom font. Using: `font-poppins`
         poppins: ['Poppins', 'sans-serif'],
+
+        // Add custom font from local-files. `font-roboto`
+        roboto: ['Roboto', 'sans-serif']
       },
     },
   },
