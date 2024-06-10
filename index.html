@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./main.css" rel="stylesheet" />
     <title>Vite Tailwind Vanilla Template</title>
+
+    <!-- Add custom fonts -->
+    <!-- In NextJS SSR/SSG(page router) use in <HEAD> tag _document.tsx -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="flex flex-col">
     <header>
@@ -18,7 +27,7 @@
     </header>
     <main class="grow">
       <div class="container">
-        <div class="text-red-600">
+        <div class="text-red-600 font-poppins">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
           nostrum quo accusamus dolorum hic, dicta dignissimos aperiam,
           doloremque expedita sapiente maiores repellat? Eius neque dolor in!
@@ -76,7 +85,9 @@
     </main>
     <footer>
       <div class="container">
-        <div class="h-16 footer flex justify-center items-center text-blue-600 bg-slate-200">
+        <div
+          class="h-16 footer flex justify-center items-center text-blue-600 bg-slate-200"
+        >
           Footer
         </div>
       </div>

@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        oswald: 'Oswald, sans-serif',
+        // Add custom font. Using: font-poppins
+        poppins: ['Poppins', 'sans-serif'],
       },
     },
   },
