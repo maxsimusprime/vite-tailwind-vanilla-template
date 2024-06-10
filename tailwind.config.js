@@ -8,7 +8,9 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/container-queries'),
+  ],
   corePlugins: {
     // Disabling default core `container` plugin
     container: false,
