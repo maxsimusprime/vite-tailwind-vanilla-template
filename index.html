@@ -1,13 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <link href="./main.css" rel="stylesheet" />
+    <title>Vite Tailwind Vanilla Template</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <header
+      class="w-full h-16 flex justify-center items-center text-[var(--color-primary-success)]"
+    >
+      Header
+    </header>
+    <main class="grow">
+      <div class="container">
+        <div
+          class="flex justify-center items-center text-red-600 bg-gray-400 h-96"
+        >
+          Main
+        </div>
+      </div>
+    </main>
+    <footer class="h-10 footer flex justify-center items-center text-blue-600">
+      Footer
+    </footer>
   </body>
 </html>
