@@ -1,1 +1,1 @@
-# vite-tailwind-vanilla-template
+### Template for development html layout for quick adaptation with Nextjs SSR/SSG components
